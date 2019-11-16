@@ -116,9 +116,9 @@ app_license = "MIT"
 # Overriding Methods
 # ------------------------------
 #
-override_whitelisted_methods = {
-	"erpnext.shopping_cart.product_info.get_product_info_for_website":"override.api.get_product_info_for_website"
-}
+# override_whitelisted_methods = {
+# 	"erpnext.shopping_cart.product_info.get_product_info_for_website":"override.api.get_product_info_for_website"
+# }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
